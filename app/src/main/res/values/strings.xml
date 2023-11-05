@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">English in IT</string>
+    <string name="welcome_text">Welcome to our application!
+        <br />
+        Here you can learn some IT vocabulary in English
+    </string>
+    <string name="flashcards_settings">How do you want to learn?</string>
+    <string name="term_to_def">Term to definition</string>
+    <string name="def_to_term">Definition to term (default)</string>
+    <string name="next_caps">NEXT</string>
+    <string name="prev_caps">PREV</string>
+    <string name="flashcard_progress_number">0/100</string>
+    <string name="flashcard_example_txt">term_or_def</string>
+    <string name="memory_select_difficulty">Select difficulty</string>
+    <string name="memory_easy">Easy</string>
+    <string name="memory_medium">Medium</string>
+    <string name="memory_hard">Hard</string>
+    <string name="memory_start">Start</string>
+    <string name="memory_congratulations">Congratulations, you won!\n
+        Your score is:
+    </string>
+    <string name="congrats_img_description">Happy teddy saying congratulations</string>
+    <string name="memory_return">Return to main menu</string>
+    <string name="memory_play_again">Play again</string>
+    <string name="start_playing">start playing</string>
+    <string name="start_learning">start learning</string>
+    <string name="start_txt">START!!</string>
+    <string name="title_activity_falling_comet_game">FallingCometGame</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="falling_comet_image">falling comet image</string>
+    <string name="your_answer">Your answer</string>finish
+    <string name="submit">Submit</string>
+    <string name="game_over">Game Over!</string>
+    <string name="create_own_sets_welcome">Here you can create your own learning sets containing some terms of your choice.</string>
+    <string name="plus">+</string>
+    <string name="new_set">New set</string>
+    <string name="no_sets">You have 0 learning sets.</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="set_name_dummy">This is set name</string>
+    <string name="set_terms_number_dummy">This is a number of sets you have</string>
+    <string name="set_name">new set name</string>
+    <string name="finish">Finish</string>
+    <string name="add_some_terms">Add some terms to your new set by clicking on a chosen term from the list below.</string>
+    <string name="add_terms">Add terms</string>
+    <string name="select_new_words">Click on a selected word to add it to your set.</string>
+    <string name="save_caps">SAVE</string>
+    <string name="term_dummy">Term</string>
+    <string name="def_dummy">Definition of a term might be a looong definition lalalala defining some term, definition could be long or shorter</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    tools:context="memory.MemoryWin">
+
+    <TextView
+        android:id="@+id/txtCongratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:text="@string/memory_congratulations"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/txtCongratulations"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgCongrats"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/txtScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/congrats_img_description"
+        android:src="@drawable/congrats" />
+
+    <View android:id="@+id/fakeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fakeView"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="?attr/buttonColor"
+        android:text="@string/memory_play_again"
+        android:textColor="@color/white"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"/>
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fakeView"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="?attr/buttonColor"
+        android:text="@string/memory_return"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="45dp"/>
+
+</RelativeLayout>

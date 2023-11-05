@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.technetapps.english_in_it">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity
+            android:name="learning_sets.EditSet"
+            android:exported="false" />
+        <activity
+            android:name="learning_sets.CreateOwnTermSets"
+            android:exported="false" />
+        <activity
+            android:name="com.technetapps.english_in_it.DailyRepetitions"
+            android:exported="false" />
+        <activity
+            android:name="comet.FallingCometGame"
+            android:exported="false" />
+        <activity
+            android:name="comet.CometTimerActivity"
+            android:exported="false" />
+        <activity
+            android:name="flashcards.Flashcards"
+            android:exported="false" />
+        <activity
+            android:name="flashcards.FlashcardsOptions"
+            android:exported="false" />
+        <activity
+            android:name="com.technetapps.english_in_it.BrowseVocabulary"
+            android:exported="true" />
+        <activity
+            android:name="memory.Memory"
+            android:exported="true" />
+        <activity
+            android:name="com.technetapps.english_in_it.Settings"
+            android:exported="true" />
+        <activity
+            android:name="com.technetapps.english_in_it.ChooseWordsToLearn"
+            android:exported="true" />
+        <activity
+            android:name="com.technetapps.english_in_it.TypingWordsExercise"
+            android:exported="true" />
+        <activity
+            android:name="com.technetapps.english_in_it.TypingWordsExerciseOptions"
+            android:exported="true" />
+        <activity
+            android:name="activities_menu.StartListActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.technetapps.english_in_it.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="memory.MemoryGame"
+            android:exported="true" />
+        <activity
+            android:name="memory.MemoryWin"
+            android:exported="true" />
+    </application>
+
+</manifest>

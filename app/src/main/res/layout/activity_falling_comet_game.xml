@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stars_bg2"
+    tools:context="comet.CometTimerActivity">
+
+    <ImageView
+        android:id="@+id/cometImg"
+        android:src="@drawable/comet_img_removebg"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-600dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/falling_comet_image" />
+
+    <Button
+        android:id="@+id/btnSubmitComet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="?attr/buttonColor"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/btnSubmitComet"
+        android:id="@+id/AnswerEdtTxt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:background="@drawable/custom_input"
+        android:textColor="@android:color/white"
+        android:hint="@string/your_answer"
+        android:textColorHint="@android:color/white"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:id="@+id/fallingDefinition"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="40sp"
+        android:text="@string/game_over"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:id="@+id/gameOverTxt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/gameOverTxt"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_orange_light"
+        android:id="@+id/scoreTxt"/>
+
+    <Button
+        android:id="@+id/btnPlayAgainComet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/buttonColor"
+        android:text="@string/memory_play_again"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/scoreTxt"/>
+
+</RelativeLayout>

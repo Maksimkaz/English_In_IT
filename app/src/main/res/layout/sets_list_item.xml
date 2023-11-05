@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/set_parent"
+    android:orientation="horizontal"
+    android:layout_centerInParent="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_description"
+        android:minHeight="45dp">
+
+        <TextView
+            android:id="@+id/set_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_name_dummy"
+            android:textSize="17sp"
+            android:textColor="?attr/buttonColor"/>
+
+        <TextView
+            android:id="@+id/set_items_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_name"
+            android:text="@string/set_terms_number_dummy"
+            android:textSize="12sp"
+            android:textColor="?attr/buttonColor"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/edit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:textSize="12sp"
+        android:layout_marginStart="10dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"/>
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:textSize="12sp"
+        android:layout_marginStart="10dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"/>
+
+</LinearLayout>
